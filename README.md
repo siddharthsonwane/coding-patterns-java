@@ -1,4 +1,4 @@
-# Key Data Structure & Algorithm
+# coding-patterns-java
 
 A Java-based educational project focused on implementing essential data structures and algorithms from scratch.  
 Ideal for students, developers, and interview preparation.

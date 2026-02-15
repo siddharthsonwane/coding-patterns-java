@@ -7,10 +7,15 @@ out/
 .apt_generated
 .classpath
 .factorypath
+# =====================
+# Eclipse
+# =====================
 .project
 .settings
 .springBeans
 .sts4-cache
+.classpath
+.settings/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
@@ -21,9 +26,23 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+# =====================
+# IntelliJ IDEA
+# =====================
+.idea/
+*.iml
 
 ### VS Code ###
 .vscode/
+# =====================
+# Build tools
+# =====================
+target/
+out/
 
 ### Mac OS ###
+# =====================
+# OS
+# =====================
 .DS_Store
+Thumbs.db

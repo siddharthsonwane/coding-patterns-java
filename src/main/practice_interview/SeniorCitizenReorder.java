@@ -26,5 +26,16 @@ public class SeniorCitizenReorder {
                         .collect(Collectors.toList());
 
         result.forEach(System.out::println);
+
+/*        Map<String, Integer> personMap= people.stream()
+                .collect(Collectors.toMap(Person::getFirstName, Person::getAge))
+                .forEach((key, value) -> System.out.println(key));*/
+         int maxAge =
+                people.stream()
+                        .mapToInt(Person::getAge)
+                        .max().getAsInt();
+
+            System.out.println(maxAge);
+
     }
 }
